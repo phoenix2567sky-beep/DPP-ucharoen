@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+
+    <style>
+        body {
+            background-color: pink;
+            margin: 8px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .shop {
+            width: 40%;
+        }
+
+        .shop img {
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid white;
+            width: 100%;
+        }
+
+        .copyright {
+            text-align: right;
+            font-family: monospace;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Online Shopping &amp; More!</h1>
+
+    <div class="shops">
+        <div class="shop">
+            <a href="https://www.amazon.com/" target="_blank">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                    alt="Amazon online shop">
+            </a>
+            <p>
+                <a href="https://www.amazon.com/" target="_blank">
+                    Amazon
+                </a>
+            </p>
+        </div>
+
+        <div class="shop">
+            <a href="https://www.ebay.com/" target="_blank">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg"
+                    alt="eBay online shop">
+            </a>
+            <p>
+                <a href="https://www.ebay.com/" target="_blank">
+                    eBay
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="copyright">© wil 2026</p>
+</body>
+</html>
